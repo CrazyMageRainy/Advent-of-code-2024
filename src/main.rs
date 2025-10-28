@@ -16,7 +16,7 @@ fn main() {
             match x {
                 1 => day_1::main(),
                 2 => day_2::main(),
-                3 => day_3::main(),
+                3 => day_3::second(),
                 // 4 => day 4::main(),
                 // 5 => day 5::main(),
                 // 6 => day 6::main(),
