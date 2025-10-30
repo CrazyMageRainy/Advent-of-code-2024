@@ -2,8 +2,8 @@ use std::io::stdin;
 mod day_1;
 mod day_2;
 mod day_3;
+mod day_5;
 mod puzzle_input;
-mod day_4;
 
 use day_1::*;
 fn main() {
@@ -18,8 +18,8 @@ fn main() {
                 1 => day_1::main(),
                 2 => day_2::main(),
                 3 => day_3::second(),
-                4 => day_4::first(),
-                // 5 => day 5::main(),
+                // 4 => day 4::main(),
+                5 => day_5::first(),
                 // 6 => day 6::main(),
                 // 7 => day 7::main(),
                 // 8 => day 8::main(),
